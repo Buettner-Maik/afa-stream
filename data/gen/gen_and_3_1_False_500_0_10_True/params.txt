@@ -1,0 +1,8 @@
+label_function	and
+features	3
+indicatives	1
+allow_less_indicatives	False
+function_width_mean	500
+function_width_variance	0
+concepts	10
+ensure_new_concepts	True
