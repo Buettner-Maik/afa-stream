@@ -18,6 +18,8 @@ The datasets used in the corresponding paper can be found on the UCI website htt
 
 Preprocessed versions of them are found under data/csv/
 
+The adult and intrusion data sets have their raw_data.pkl.gzip files further zipped and have to be unpacked to be used
+
 ## Running the code
 
 Run code by creating a Framework class in osm/data_streams/algorithm/framework.py and executing process_data_stream()
@@ -28,7 +30,7 @@ The permutations used to produce the paper results can be found within data/_dat
 
 ## Where is what
 
-Framework Class, Entry: osm/data_streams/algorithm/framework.py
+Framework Class, entry point: osm/data_streams/algorithm/framework.py
 
 Active Feature Acquisition: osm/data_streams/active_feature_acquisition/
 
@@ -36,6 +38,6 @@ Active Learner: osm/data_streams/active_learner/
 
 AFA budget managers; not used by active learners: osm/data_streams/budget_manager/
 
-Oracle: osm/data_streams/oracle
+Oracle: osm/data_streams/oracle/
 
-Windows: osm/data_streams/windows
+Windows: osm/data_streams/windows/
